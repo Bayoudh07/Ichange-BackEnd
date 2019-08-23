@@ -38,7 +38,7 @@ RoleRepository roleRepository =ctx.getBean(RoleRepository.class);
 		
 		userRepository.save(admin);
 		
-		User rd = new User("user2@gmail.com", "ali","bayoudh","pwd3","Web Developper","Teboulba", true);
+		User rd = new User("admin2@gmail.com", "ali","bayoudh","pwd3","Web Developper","Teboulba", true);
 		rd.setRoles(Arrays.asList(roleUser));
 		
 		userRepository.save(rd);
